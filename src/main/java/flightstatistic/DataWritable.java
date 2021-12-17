@@ -7,7 +7,7 @@ import java.io.IOException;
 enum EntityType{
     AIRPORT,
     FLIGHT
-}
+
 
 public class DataWritable implements Writable {
     private static final String AIRPORT_DELIMITER = ",\"";
