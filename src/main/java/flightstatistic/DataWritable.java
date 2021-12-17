@@ -56,7 +56,7 @@ public class DataWritable implements Writable {
     }
 
 
-
+    public void write(DataOutput out) throws IOException {
         out.writeInt(type.ordinal());
         out.writeInt(id);
 
