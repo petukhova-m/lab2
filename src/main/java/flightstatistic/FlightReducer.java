@@ -9,7 +9,7 @@ import java.util.Iterator;
 public class FlightReducer extends Reducer<AirportWritableComparable, DataWritable, Integer, Text> {
 
     @Override
-
+    protected void reduce(AirportWritableComparable key, Iterable<DataWritable> values, Context context) throws IOException, InterruptedException {
 
         Text name = new Text(iter.next().getDescription());
         float min = Float.MAX_VALUE;
