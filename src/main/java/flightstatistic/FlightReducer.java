@@ -3,7 +3,7 @@ package flightstatistic;
 
 import org.apache.hadoop.mapreduce.Reducer;
 
-
+import java.io.IOException;
 import java.util.Iterator;
 
 public class FlightReducer extends Reducer<AirportWritableComparable, DataWritable, Integer, Text> {
