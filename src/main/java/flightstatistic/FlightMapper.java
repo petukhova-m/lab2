@@ -1,7 +1,7 @@
 
 import java.io.IOException;
 
-
+import org.apache.hadoop.io.*;
 
 
 public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComparable, DataWritable> {
