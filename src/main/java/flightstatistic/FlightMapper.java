@@ -14,5 +14,5 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
         if (writable.getDelay() > Constants.ZERO && !writable.isCancelled()) {
             context.write(new AirportWritableComparable(writable.getId(), EntityType.FLIGHT), writable);
         }
-
+    }
 }
