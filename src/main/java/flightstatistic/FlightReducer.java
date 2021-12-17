@@ -16,7 +16,7 @@ public class FlightReducer extends Reducer<AirportWritableComparable, DataWritab
 
 
         float counter = Constants.ZERO;
-
+        while (iter.hasNext()) {
 
 
 
