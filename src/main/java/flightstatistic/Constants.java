@@ -5,5 +5,5 @@ public class Constants {
     public static final int ZERO = 0;
 
     public static final int DESCRIPTION = 1;
-
+    public static final int CODE = 0;
 }
