@@ -28,6 +28,6 @@ public class FlightStatisticApp {
 
         job.setOutputValueClass(Text.class);
 
-
+        System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
