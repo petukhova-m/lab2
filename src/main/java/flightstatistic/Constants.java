@@ -6,4 +6,4 @@ package flightstatistic;
 
     public static final int DESCRIPTION = 1;
     public static final int CODE = 0;
-
+}

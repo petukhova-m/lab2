@@ -11,7 +11,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
     AirportWritableComparable(){}
     AirportWritableComparable(int id, EntityType type) {
         this.type = type;
-
+        this.id = id;
     }
 
         return type;
