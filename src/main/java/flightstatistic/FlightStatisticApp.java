@@ -13,7 +13,7 @@ public class FlightStatisticApp {
 
 
 
-
+        job.setJarByClass(FlightStatisticApp.class);
         job.setJobName("Flight sort");
 
 
