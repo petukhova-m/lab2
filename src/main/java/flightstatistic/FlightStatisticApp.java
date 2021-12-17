@@ -21,7 +21,7 @@ public class FlightStatisticApp {
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setPartitionerClass(FlightPartitioner.class);
         job.setGroupingComparatorClass(FlightComparator.class);
-
+        job.setReducerClass(FlightReducer.class);
         job.setMapOutputKeyClass(AirportWritableComparable.class);
         job.setMapOutputValueClass(DataWritable.class);
 
