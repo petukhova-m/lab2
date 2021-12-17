@@ -8,7 +8,7 @@ import java.io.IOException;
 
     private EntityType type;
     private int id;
-
+    AirportWritableComparable(){}
     AirportWritableComparable(int id, EntityType type) {
         this.type = type;
         this.id = id;
