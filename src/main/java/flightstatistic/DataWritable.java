@@ -58,7 +58,7 @@ public class DataWritable implements Writable {
 
 
 
-
+        out.writeInt(id);
 
 
 
