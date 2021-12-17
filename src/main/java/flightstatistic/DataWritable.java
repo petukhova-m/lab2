@@ -49,7 +49,7 @@ public class DataWritable implements Writable {
 
     public float getDelay() {
 
-
+    }
 
     public String getDescription() {
 
