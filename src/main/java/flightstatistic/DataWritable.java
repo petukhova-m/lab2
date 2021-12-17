@@ -6,7 +6,7 @@
 
 enum EntityType{
     AIRPORT,
-
+    FLIGHT
 
 
 public class DataWritable implements Writable {
