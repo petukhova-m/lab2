@@ -36,3 +36,4 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
         return (a == 0 ? c : a);
     }
 }
+
