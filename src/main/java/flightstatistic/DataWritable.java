@@ -69,7 +69,7 @@ public class DataWritable implements Writable {
 
 
 
-
+        this.description = in.readUTF();
 
 
 }
