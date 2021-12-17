@@ -17,7 +17,7 @@ public class FlightReducer extends Reducer<AirportWritableComparable, DataWritab
         float average = Constants.ZERO;
         float counter = Constants.ZERO;
         while (iter.hasNext()) {
-
+            DataWritable flight = iter.next();
             float arrDelay = flight.getDelay();
             counter++;
             average += arrDelay;
