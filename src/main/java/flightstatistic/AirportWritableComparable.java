@@ -30,7 +30,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
     }
 
-
+    public int compareTo(AirportWritableComparable b) {
 
 
 
