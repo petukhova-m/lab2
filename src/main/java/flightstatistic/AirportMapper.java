@@ -9,7 +9,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritableCom
 
 
 
-        DataWritable writable = new DataWritable(value.toString(), EntityType.AIRPORT);
+
         context.write(new AirportWritableComparable(writable.getId(), EntityType.AIRPORT), writable);
 
 
