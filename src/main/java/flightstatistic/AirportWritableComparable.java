@@ -10,7 +10,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
 
 
-
+        this.type = type;
 
 
 
