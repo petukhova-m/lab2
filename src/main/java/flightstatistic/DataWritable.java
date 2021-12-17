@@ -33,7 +33,7 @@ public class DataWritable implements Writable {
             this.cancelled = Float.parseFloat(data[Constants.IS_CANCELED]) == 1;
         }
 
-
+    }
 
 
 
