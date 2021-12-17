@@ -21,7 +21,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
 
 
-
+        this.id = in.readInt();
 
     }
     @Override
