@@ -20,7 +20,7 @@ public class DataWritable implements Writable {
     public DataWritable(){
 
     }
-    public DataWritable(String value, EntityType type) {
+
         this.type = type;
         if (type == EntityType.AIRPORT){
             String[] data = value.split(AIRPORT_DELIMITER);
