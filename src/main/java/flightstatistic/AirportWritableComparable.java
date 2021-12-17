@@ -33,6 +33,6 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
     public int compareTo(AirportWritableComparable b) {
         Integer a = this.id - b.getId();
 
-
+        return (a == 0 ? c : a);
     }
 }
