@@ -29,7 +29,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
         out.writeInt(id);
         out.writeInt(type.ordinal());
     }
-
+    @Override
     public int compareTo(AirportWritableComparable b) {
         Integer a = this.id - b.getId();
         Integer c = this.type.ordinal() - b.getType().ordinal();
