@@ -57,7 +57,7 @@ public class DataWritable implements Writable {
 
 
 
-
+        out.writeInt(type.ordinal());
         out.writeInt(id);
 
         out.writeUTF(description);
