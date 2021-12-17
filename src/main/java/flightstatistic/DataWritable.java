@@ -26,7 +26,7 @@ public class DataWritable implements Writable {
 
 
             this.description = data[Constants.DESCRIPTION].replaceAll("\"", "");
-
+        } else if (type == EntityType.FLIGHT) {
 
             this.id = Integer.parseInt(data[Constants.AIRPORT_ID].replaceAll("\"", ""));
             this.delay = data[Constants.ARR_DELAY].length() > 0 ? Float.parseFloat(data[Constants.ARR_DELAY]) : 0;
