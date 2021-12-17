@@ -6,4 +6,4 @@ public class Constants {
     public static final int IS_CANCELED = 19;
 
     public static final int CODE = 0;
-
+}
