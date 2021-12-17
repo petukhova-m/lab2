@@ -17,7 +17,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
         return type;
 
     public int getId() {
-
+        return id;
     }
 
     public void readFields(DataInput in) throws IOException {
