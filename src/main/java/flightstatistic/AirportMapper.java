@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 
             return;
-        }
+
 
         context.write(new AirportWritableComparable(writable.getId(), EntityType.AIRPORT), writable);
     }

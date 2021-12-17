@@ -2,7 +2,7 @@ package flightstatistic;
 import java.io.IOException;
 
 import org.apache.hadoop.io.*;
-import org.apache.hadoop.mapreduce.Mapper;
+
 
 public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComparable, DataWritable> {
     @Override
