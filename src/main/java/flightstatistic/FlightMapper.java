@@ -15,4 +15,4 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
             context.write(new AirportWritableComparable(writable.getId(), EntityType.FLIGHT), writable);
         }
     }
-
+}
