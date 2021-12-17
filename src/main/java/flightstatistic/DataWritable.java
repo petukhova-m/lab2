@@ -62,7 +62,7 @@ public class DataWritable implements Writable {
 
         out.writeUTF(description);
 
-
+    }
 
     @Override
     public void readFields(DataInput in) throws IOException {
