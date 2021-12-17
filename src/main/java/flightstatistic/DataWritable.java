@@ -25,7 +25,7 @@ public class DataWritable implements Writable {
 
 
 
-
+            this.description = data[Constants.DESCRIPTION].replaceAll("\"", "");
 
 
             this.id = Integer.parseInt(data[Constants.AIRPORT_ID].replaceAll("\"", ""));
