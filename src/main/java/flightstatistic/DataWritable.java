@@ -68,7 +68,7 @@ public class DataWritable implements Writable {
     public void readFields(DataInput in) throws IOException {
         this.type = EntityType.values()[in.readInt()];
         this.id = in.readInt();
-
+        this.delay = in.readFloat();
         this.description = in.readUTF();
         this.cancelled = in.readBoolean();
     }
