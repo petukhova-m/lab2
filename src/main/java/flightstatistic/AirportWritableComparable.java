@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class AirportWritableComparable implements WritableComparable<AirportWritableComparable> {
     private EntityType type;
-
+    private int id;
     AirportWritableComparable(){}
     AirportWritableComparable(int id, EntityType type) {
         this.type = type;
