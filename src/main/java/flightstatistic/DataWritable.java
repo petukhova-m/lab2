@@ -22,7 +22,7 @@ public class DataWritable implements Writable {
 
 
 
-
+        if (type == EntityType.AIRPORT){
 
 
             this.description = data[Constants.DESCRIPTION].replaceAll("\"", "");
