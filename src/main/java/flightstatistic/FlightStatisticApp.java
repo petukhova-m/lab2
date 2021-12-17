@@ -12,7 +12,7 @@ public class FlightStatisticApp {
             System.err.println("Usage: FlightStatisticApp FlightStatisticApp <input path>[] <output path>");
             System.exit(-1);
 
-
+        Job job = Job.getInstance();
         job.setJarByClass(FlightStatisticApp.class);
         job.setJobName("Flight sort");
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightMapper.class);
