@@ -39,7 +39,7 @@ public class DataWritable implements Writable {
 
 
 
-
+    public int getId() {
         return id;
 
 
