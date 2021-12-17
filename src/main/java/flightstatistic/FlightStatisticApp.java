@@ -26,7 +26,7 @@ public class FlightStatisticApp {
 
 
 
-
+        job.setOutputValueClass(Text.class);
 
 
 
