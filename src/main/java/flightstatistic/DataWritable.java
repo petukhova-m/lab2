@@ -44,7 +44,7 @@ public class DataWritable implements Writable {
     }
 
     public boolean isCancelled() {
-
+        return cancelled;
     }
 
     public float getDelay() {
