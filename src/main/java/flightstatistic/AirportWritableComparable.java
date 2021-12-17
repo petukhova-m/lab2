@@ -15,7 +15,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
     }
     public EntityType getType() {
         return type;
-
+    }
     public int getId() {
         return id;
     }
