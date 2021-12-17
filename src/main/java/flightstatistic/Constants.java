@@ -1,4 +1,4 @@
-package flightstatistic;
+
 
     public static final int ARR_DELAY = 18;
     public static final int AIRPORT_ID = 14;
