@@ -19,7 +19,7 @@ public class DataWritable implements Writable {
     public boolean cancelled = false;
     public DataWritable(){
 
-
+    }
     public DataWritable(String value, EntityType type) {
         this.type = type;
         if (type == EntityType.AIRPORT){
