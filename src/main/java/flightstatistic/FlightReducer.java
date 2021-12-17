@@ -26,6 +26,6 @@ public class FlightReducer extends Reducer<AirportWritableComparable, DataWritab
 
 
 
-
+        }
 
 }
