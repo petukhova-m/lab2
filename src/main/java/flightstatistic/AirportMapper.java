@@ -1,7 +1,7 @@
 package flightstatistic;
 
 
-import org.apache.hadoop.mapreduce.Mapper;
+
 
 
     @Override
