@@ -1,4 +1,4 @@
-
+package flightstatistic;
 
 
 import org.apache.hadoop.mapreduce.Reducer;
