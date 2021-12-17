@@ -10,7 +10,7 @@ enum EntityType{
 
 
 public class DataWritable implements Writable {
-
+    private static final String AIRPORT_DELIMITER = ",\"";
     private static final String FLIGHT_DELIMITER = ",";
 
     public int id;
