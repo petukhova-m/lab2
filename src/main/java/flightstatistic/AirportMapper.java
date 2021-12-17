@@ -3,7 +3,7 @@ package flightstatistic;
 
 
 
-
+public class AirportMapper extends Mapper<LongWritable, Text, AirportWritableComparable, DataWritable> {
     @Override
 
 
