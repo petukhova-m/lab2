@@ -70,6 +70,6 @@ public class DataWritable implements Writable {
 
 
         this.description = in.readUTF();
-
+        this.cancelled = in.readBoolean();
     }
 }
