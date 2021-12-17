@@ -2,7 +2,7 @@
 
 
 import java.io.DataOutput;
-
+import java.io.IOException;
 
 enum EntityType{
     AIRPORT,
