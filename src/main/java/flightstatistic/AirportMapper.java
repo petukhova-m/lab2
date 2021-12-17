@@ -12,4 +12,4 @@ package flightstatistic;
 
         context.write(new AirportWritableComparable(writable.getId(), EntityType.AIRPORT), writable);
     }
-
+}
