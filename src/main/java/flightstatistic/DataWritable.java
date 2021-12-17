@@ -35,7 +35,7 @@ public class DataWritable implements Writable {
 
     }
 
-
+    public EntityType getType() {
 
 
 
