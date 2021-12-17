@@ -24,7 +24,7 @@ public class FlightReducer extends Reducer<AirportWritableComparable, DataWritab
             min = Math.min(arrDelay, min);
             max = Math.max(arrDelay, max);
 
-
+        if (counter > Constants.ZERO) {
 
         }
 
