@@ -61,7 +61,7 @@ public class DataWritable implements Writable {
         out.writeInt(id);
         out.writeFloat(delay);
         out.writeUTF(description);
-
+        out.writeBoolean(cancelled);
     }
 
     @Override
