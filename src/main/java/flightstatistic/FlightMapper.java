@@ -10,7 +10,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
         if (key.get() == 0) {
             return;
         }
-
+        DataWritable writable = new DataWritable(value.toString(), EntityType.FLIGHT);
         if (writable.getDelay() > Constants.ZERO && !writable.isCancelled()) {
             context.write(new AirportWritableComparable(writable.getId(), EntityType.FLIGHT), writable);
         }
