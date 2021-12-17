@@ -9,7 +9,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
     private EntityType type;
 
     AirportWritableComparable(){}
-
+    AirportWritableComparable(int id, EntityType type) {
         this.type = type;
 
 
