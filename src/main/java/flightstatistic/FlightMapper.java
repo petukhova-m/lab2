@@ -8,7 +8,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
     @Override
 
         if (key.get() == 0) {
-
+            return;
 
 
         if (writable.getDelay() > Constants.ZERO && !writable.isCancelled()) {
