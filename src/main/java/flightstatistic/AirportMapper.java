@@ -7,7 +7,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritableCom
     @Override
 
 
-            return;
+
         }
 
         context.write(new AirportWritableComparable(writable.getId(), EntityType.AIRPORT), writable);
