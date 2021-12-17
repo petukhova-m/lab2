@@ -65,7 +65,7 @@ public class DataWritable implements Writable {
 
 
 
-
+    public void readFields(DataInput in) throws IOException {
 
 
 
