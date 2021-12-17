@@ -14,7 +14,7 @@ public class FlightReducer extends Reducer<AirportWritableComparable, DataWritab
         Text name = new Text(iter.next().getDescription());
         float min = Float.MAX_VALUE;
         float max = Float.MIN_VALUE;
-
+        float average = Constants.ZERO;
         float counter = Constants.ZERO;
         while (iter.hasNext()) {
 
