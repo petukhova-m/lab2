@@ -5,7 +5,7 @@
 
 
 enum EntityType{
-
+    AIRPORT,
 
 
 
