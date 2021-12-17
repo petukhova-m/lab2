@@ -8,7 +8,7 @@ import java.util.Iterator;
 
 public class FlightReducer extends Reducer<AirportWritableComparable, DataWritable, Integer, Text> {
 
-
+    @Override
 
 
         Text name = new Text(iter.next().getDescription());
