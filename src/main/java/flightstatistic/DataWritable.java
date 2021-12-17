@@ -24,7 +24,7 @@ public class DataWritable implements Writable {
         this.type = type;
         if (type == EntityType.AIRPORT){
 
-
+            this.id = Integer.parseInt(data[Constants.CODE].replaceAll("\"", ""));
             this.description = data[Constants.DESCRIPTION].replaceAll("\"", "");
         } else if (type == EntityType.FLIGHT) {
             String[] data = value.split(FLIGHT_DELIMITER);
