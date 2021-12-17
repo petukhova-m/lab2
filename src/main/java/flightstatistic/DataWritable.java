@@ -14,7 +14,7 @@ public class DataWritable implements Writable {
 
 
     public int id;
-
+    public float delay = 0;
     public String description = "";
 
     public DataWritable(){
