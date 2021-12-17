@@ -20,7 +20,7 @@ public class FlightReducer extends Reducer<AirportWritableComparable, DataWritab
 
 
 
-
+            average += arrDelay;
             min = Math.min(arrDelay, min);
             max = Math.max(arrDelay, max);
         }
