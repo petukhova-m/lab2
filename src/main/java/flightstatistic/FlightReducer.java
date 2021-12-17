@@ -15,7 +15,7 @@ public class FlightReducer extends Reducer<AirportWritableComparable, DataWritab
         float min = Float.MAX_VALUE;
 
 
-
+        float counter = Constants.ZERO;
 
 
 
