@@ -21,7 +21,7 @@ public class DataWritable implements Writable {
 
 
 
-
+        this.type = type;
         if (type == EntityType.AIRPORT){
 
 
