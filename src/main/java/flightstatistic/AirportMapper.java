@@ -4,7 +4,7 @@ import java.io.IOException;
 
 
 public class AirportMapper extends Mapper<LongWritable, Text, AirportWritableComparable, DataWritable> {
-    @Override
+
 
 
             return;
