@@ -48,7 +48,7 @@ public class DataWritable implements Writable {
     }
 
     public float getDelay() {
-
+        return delay;
     }
 
     public String getDescription() {
