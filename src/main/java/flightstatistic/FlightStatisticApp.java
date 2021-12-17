@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class FlightStatisticApp {
 
-
+        if (args.length != 3) {
             System.err.println("Usage: FlightStatisticApp FlightStatisticApp <input path>[] <output path>");
 
 
