@@ -73,3 +73,4 @@ public class DataWritable implements Writable {
         this.cancelled = in.readBoolean();
     }
 }
+
