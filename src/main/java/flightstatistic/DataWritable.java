@@ -31,7 +31,7 @@ public class DataWritable implements Writable {
             this.id = Integer.parseInt(data[Constants.AIRPORT_ID].replaceAll("\"", ""));
 
             this.cancelled = Float.parseFloat(data[Constants.IS_CANCELED]) == 1;
-
+        }
 
 
 
