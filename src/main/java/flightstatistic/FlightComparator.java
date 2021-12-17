@@ -10,6 +10,6 @@ public class FlightComparator extends WritableComparator {
 
     public int compare(WritableComparable a, WritableComparable b) {
         return ((AirportWritableComparable) a).getId() - ((AirportWritableComparable) b).getId();
-
+    }
 
 }
