@@ -60,7 +60,7 @@ public class DataWritable implements Writable {
 
         out.writeInt(id);
 
-
+        out.writeUTF(description);
 
 
 
