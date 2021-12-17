@@ -25,7 +25,7 @@ public class FlightStatisticApp {
         job.setMapOutputKeyClass(AirportWritableComparable.class);
         job.setMapOutputValueClass(DataWritable.class);
 
-
+        job.setOutputKeyClass(Integer.class);
         job.setOutputValueClass(Text.class);
         job.setNumReduceTasks(2);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
