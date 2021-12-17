@@ -25,7 +25,7 @@ public class FlightReducer extends Reducer<AirportWritableComparable, DataWritab
             max = Math.max(arrDelay, max);
 
         if (counter > Constants.ZERO) {
-
+            context.write(key.getId(), new Text(String.format(pattern, name, min, max, average / counter)));
         }
 
 }
