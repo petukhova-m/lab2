@@ -67,7 +67,7 @@ public class DataWritable implements Writable {
     @Override
     public void readFields(DataInput in) throws IOException {
         this.type = EntityType.values()[in.readInt()];
-
+        this.id = in.readInt();
 
         this.description = in.readUTF();
         this.cancelled = in.readBoolean();
