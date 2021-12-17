@@ -22,7 +22,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
 
         this.id = in.readInt();
-
+        this.type = EntityType.values()[in.readInt()];
     }
     @Override
     public void write(DataOutput out) throws IOException {
