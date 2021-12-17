@@ -19,7 +19,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
     public int getId() {
         return id;
     }
-
+    @Override
     public void readFields(DataInput in) throws IOException {
         this.id = in.readInt();
         this.type = EntityType.values()[in.readInt()];
