@@ -17,7 +17,7 @@ public class DataWritable implements Writable {
 
     public String description = "";
 
-
+    public DataWritable(){
 
 
 
