@@ -13,7 +13,7 @@ public class DataWritable implements Writable {
 
 
 
-
+    public int id;
 
 
 
